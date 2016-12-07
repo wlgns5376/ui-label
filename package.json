@@ -1,0 +1,32 @@
+{
+  "name": "ui-label",
+  "version": "1.0.0",
+  "description": "ui label",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlgns5376/ui-label.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlgns5376/ui-label/issues"
+  },
+  "homepage": "https://github.com/wlgns5376/ui-label#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "files": [
+    "dist",
+    "scss",
+    "gulpfile.js",
+    "LICENSE"
+  ]
+}

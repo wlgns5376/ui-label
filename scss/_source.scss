@@ -1,0 +1,30 @@
+// Label css source
+
+.label {
+  display: inline-block;
+  color: $label-color;
+  background-color: $label-background;
+  font-size: $label-font-size;
+  font-weight: $label-font-weight;
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: $label-border-radius;
+  padding: $label-padding-y $label-padding-x;
+
+  .close {
+    display: inline-block;
+    font-family: $label-close-font-family;
+    font-weight: 400;
+    margin-left: .5em;
+    cursor: pointer;
+    opacity: .7;
+
+    &:before {
+      content: $label-close-icon;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
